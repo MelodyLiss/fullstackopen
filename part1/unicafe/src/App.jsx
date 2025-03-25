@@ -33,7 +33,6 @@ const Statistics = ({ good, neutral, bad }) => {
           <StatisticsLine text='Bad' value={bad} />
         </tbody>
       </table>
-
     </div>
   )
 }
@@ -69,8 +68,6 @@ const App = () => {
   const [neutral, setNeutral] = useState(0)
   const [bad, setBad] = useState(0)
   const [all, setAll] = useState(0)
-
-
 
   return (
     <div>
